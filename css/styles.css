@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+section {
+    margin: 20px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #4CAF50;
+}
+.content {
+    margin-bottom: 20px;
+}
+.skills, .experience, .education, .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.contact a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Ensure image is aligned left */
+.profile-image {
+    display: flex;
+    justify-content: flex-start;  /* Align the image to the left */
+    margin-right: 20px;           /* Optional: Space between image and text */
+}
+
+.profile-image img {
+    width: 100px;               /* Set your preferred width */
+    height: 100px;              /* Set your preferred height */
+    border-radius: 50%;         /* Make image circular */
+    object-fit: cover;          /* Ensures image maintains aspect ratio */
+}
